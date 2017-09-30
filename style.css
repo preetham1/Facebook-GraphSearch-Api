@@ -1,0 +1,117 @@
+@media only screen and (max-width: 500px) {
+    .smallImg{
+        height:200px !important;
+        width:200px !important;
+    }
+}
+
+.largeImg{
+    height:500px;
+    width:500px;
+}
+.glyphicon-star{
+ color:yellow   
+}
+#searchBar {
+ font-size: 17px;
+margin-bottom:0px; 
+}
+
+#searchButton {
+    height: 30px;
+    
+}
+
+#searchArea {
+    padding-top: 10px;
+   text-align: center;
+    margin-bottom:0px;
+}
+
+.navbar {
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+.navbar :hover {
+    background-color: white;
+    border-color: white;
+    color: black; }
+
+
+
+.navbar-inverse .navbar-nav>.active>a, {
+    
+    background-color: #4267b2;
+}
+
+.nav-pills>li>a {
+    border-radius: 0px;
+    /*border-bottom: 2px solid #337ab7;*/
+}
+
+/*
+form{margin-bottom: 0px !important;}
+*/
+
+/*
+.well{margin-bottom: 0px !important;}
+*/
+
+.progress{    width: 50%;
+    margin: auto;
+    margin-top: 15%;}
+
+ .details,
+        .list-item {
+            -webkit-transition: all 0 cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            -moz-transition: all 0 cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            -ms-transition: all 0 cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            -o-transition: all 0 cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            transition: all 0 cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            /* easeOutQuad */
+            -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            -moz-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            -ms-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+.detailsleft {
+            -webkit-transition: all 0 cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            -moz-transition: all 0 cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            -ms-transition: all 0 cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            -o-transition: all 0 cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            transition: all 0 cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            /* easeOutQuad */
+            -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            -moz-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            -ms-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            -o-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+.detailsleft-add {
+            transform: translateX(-100%);
+            transition-duration: 1s;
+            -webkit-transition-duration: 1s;
+        }
+ .details-add {
+            transform: translateX(100%);
+            transition-duration: 1s;
+            -webkit-transition-duration: 1s;
+        }
+       
+        .list-item-add {
+            transform: translateX(100%);
+            transition-duration: 1s;
+            -webkit-transition-duration: 1s;
+        }
+       
+        .details,.detailsleft,
+        .list-item {
+            opacity: 1;
+            transform: translateX(0);
+        }
+       
